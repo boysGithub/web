@@ -1,0 +1,149 @@
+/*初始化元素css样式*/
+*{
+ margin: 0 auto;
+ padding: 0;
+ font:bold 16px "微软雅黑";
+}
+
+/*写通用的背景颜色*/
+
+.bg-yellow {
+    background-color: #FFFF00;
+    border-top: 1px solid #02FF00;
+    border-left: 1px solid #80FF70;
+    border-bottom: 1px solid #89FF44;
+    border-right: 1px solid #A3DF6E;
+}
+
+.bg-purple {
+    background-color: #FFB2FF;
+    border-top: 1px solid #02FF00;
+    border-right: 1px solid #95FE4A;
+    border-bottom: 1px solid #A4E19B;
+}
+
+.bg-green {
+    background-color: #CCFF66;
+    border-top: 1px solid #02FF00;
+    border-right: 1px solid #8AFA50;
+    border-bottom: 1px solid #8AFE69;
+}
+
+.bg-deeppurple {
+    background-color: #CCCCFE;
+    border-top: 1px solid #02FF00;
+    border-right: 1px solid #8AFA50;
+    border-bottom: 1px solid #8EED99;
+}
+
+.bg-blue {
+    background-color: #B1FFFF;
+    border-top: 1px solid #02FF00;
+    border-right: 1px solid #02FF00;
+    border-bottom: 1px solid #90FB9D;
+}
+
+.bg-deepgreen {
+    background-color: #99FE00;
+    border-bottom: 1px solid #02FF00;
+}
+
+/*界面样式*/
+.container{
+	width: 1024px;
+	height: 910px;
+	background-image: url(../img/bg.jpg);
+}
+
+.main{
+	position: relative;
+	top: 160px;
+}
+
+h1{
+	width: 100px;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+/*表格的样式*/
+table{
+	border-radius: 15px 15px 15px 15px;
+	width: 590px;
+    border: 1px solid #02FF00;
+}
+
+tr{
+	text-align: center;
+}
+
+th{
+	padding: 10px 0;
+}
+
+td{
+	padding: 6px 0;
+	border-left: 1px solid #8BFF8D;
+    border-bottom: 1px solid #8BFF8D;
+}
+
+
+.b-r{
+	border-right:1px solid #02FF00;
+}
+
+.unb-r{
+	border-right:none;
+}
+
+
+/*圆角原始*/
+.br-p{
+	border-radius: 15px 0 0 0;
+}
+
+.br-r{
+	border-radius: 0 15px 0 0;
+}
+
+.br-b{
+	border-radius: 0 0 15px 0;
+}
+
+.br-l{
+	border-radius: 0 0 0 15px;
+}
+
+
+/*左上角斜线样式*/
+.time{
+	font-size: 12px;
+	position: relative;
+	left: -13px;
+    top: 18px;
+}
+
+.week{
+	font-size: 12px;
+	position: relative;
+	right: -13px;
+    top: -20px;
+}
+
+.pstion{
+	position: relative;
+	overflow: hidden;
+}
+
+.rotate{
+	width: 174px;
+    height: 0px;
+    left: -38px;
+    top: 36px;
+    position: absolute;
+    transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -webkit-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+}

@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{font:14px/1.5 georgia,serif,sans-serif;}
+h3{
+	margin: 15px 0 0 30px;
+}
+.red{
+	background: #CC0000;
+	color: #fff;
+}
+.yellow{
+	background: #FFCC00;
+	color: #fff;
+}
+.blue{
+	background: #33CCCC;
+	color: #fff;
+}
+/*水平弹性盒模型样式*/
+.container{
+	display:flex;
+	margin: 10px 30px;
+	height: 200px;
+	flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	-webkit-flex-direction:row;
+}
+.container div:nth-child(1){
+	-webkit-flex:1;
+}
+.container div:nth-child(2){
+	-webkit-flex:1;
+}
+.container div:nth-child(3){
+	-webkit-flex:1;
+}
+/*垂直弹性盒模型样式*/
+.container2{
+	display:flex;
+	margin: 10px 30px;
+	height: 300px;
+	flex-direction: colum;
+	-moz-flex-direction: colum;
+	-ms-flex-direction: colum;
+	-o-flex-direction: colum;
+	-webkit-flex-direction:column;
+}
+
+.container2 div:nth-child(1){
+	-webkit-flex:1;
+}
+.container2 div:nth-child(2){
+	-webkit-flex:1;
+}
+.container2 div:nth-child(3){
+	-webkit-flex:1;
+}
+
+/*排序弹性盒模型样式*/
+.container3{
+	display:flex;
+	margin: 10px 30px;
+	height: 300px;
+	-webkit-flex-direction:column;
+}
+
+.container3 div:nth-child(1){
+	order:3;
+	-webkit-flex:1;
+}
+.container3 div:nth-child(2){
+	order:1;
+	-webkit-flex:1;
+}
+.container3 div:nth-child(3){
+	order:2;
+	-webkit-flex:1;
+}
+.container4{
+	width:628px;
+	margin: 10px 30px;
+	-moz-columns:200px 3;
+	-webkit-columns:200px 3;
+	columns:200px 3;
+}
+p{margin:0;padding:5px 10px;}
+
+.container5{
+	display:-webkit-box;
+	-moz-box-pack: center;
+	-ms-box-pack: center;
+	-o-box-pack: center;
+	-webkit-box-pack: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	-webkit-box-align: center;
+	width: 500px;
+	margin: 10px 30px;
+	height: 500px;
+	margin-bottom: 150px;
+}

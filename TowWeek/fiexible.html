@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>弹性盒模型</title>
+	<link rel="stylesheet" href="./css/flexible.css">
+</head>
+<body>
+	<h3>水平分栏</h3>
+	<div class="container">
+		<div class="red">第一列</div>
+		<div class="yellow">第二列</div>
+		<div class="blue">第三列</div>
+	</div>
+	<h3>垂直分栏</h3>
+	<div class="container2">
+		<div class="red">第一列</div>
+		<div class="yellow">第二列</div>
+		<div class="blue">第三列</div>
+	</div>
+	<h3>排&nbsp;&nbsp;&nbsp;&nbsp;序</h3>
+	<div class="container3">
+		<div class="red">第一列</div>
+		<div class="yellow">第二列</div>
+		<div class="blue">第三列</div>
+	</div>
+	<h3>cloumn分栏</h3>
+	<div class="container4">
+		<p class="red">This module describes multi-column layout in CSS. By using functionality described in this document, style sheets can declare that the content of an element is to be laid out in multiple columns. </p>
+		<p class="yellow">On the Web, tables have also been used to describe multi-column layouts. The main benefit of using CSS-based columns is flexibility; content can flow from one column to another, and the number of columns can vary depending on the size of the viewport. Removing presentation table markup from documents allows them to more easily be presented on various output devices including speech synthesizers and small mobile devices.</p>
+	</div>
+	<h3>旧版弹性盒子居中布局</h3>
+	<div class="container5 red">
+		<img src="http://img3.imgtn.bdimg.com/it/u=1183223528,3058066243&fm=21&gp=0.jpg" alt="" width="180" height="180">
+	</div>
+</div>
+</div>
+
+<ul class="flex">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+<style>
+	.flex{display:flex;width:800px;margin:0;padding:0;list-style:none;}
+.flex :nth-child(1){flex:1 1 300px;background: red;}
+.flex :nth-child(2){flex:2 2 200px;background: blue;}
+.flex :nth-child(3){flex:3 3 400px;background: yellow;}
+</style>
+
+</body>
+</html>

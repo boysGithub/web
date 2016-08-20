@@ -1,0 +1,65 @@
+/*通用样式*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear{
+	clear: both;
+}
+
+.pre,.lf,.ctr,.rgt,.btm{
+	width: 100px;
+	height: 100px;
+}
+/*主体样式*/
+.container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px; 
+}
+.pre{
+	position: relative;
+	left: 100px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#3272A4), to(#2E71A2));/*谷歌*/ 
+	background: -moz-linear-gradient(top,#3272A4,#2E71A2);/*火狐*/
+	box-shadow: -1px -4px 20px rgba(0,0,0,.6);
+}
+
+.lf,.ctr,.rgt{
+	float: left;
+}
+
+.lf{
+	background: -webkit-gradient(linear, 0% 0%,0% 100%,from(#634080),to(#4B1573));/*谷歌*/
+	background: -moz-linear-gradient(top,#634080,#4B1573);/*火狐*/
+	box-shadow: -1px 0px 20px rgba(0,0,0,.6);
+}
+
+.ctr{
+	background: #FDF9F9 url("../img/3.png") no-repeat;
+	background-position: -4px 0px;
+    background-size: 110px 110px;
+    
+    /*-webkit-gradient(linear,0% 0%,0% 100%,from(#B5B1B4),to(#B5B1B4)) */
+}
+
+.rgt{
+	background: -webkit-gradient(linear, 0% 0%,0% 100%,from(#2F893D),to(#339E3B));/*谷歌*/
+	background: -moz-linear-gradient(top,#2F893D,#339E3B);/*火狐*/
+	box-shadow: -1px 0px 20px rgba(0,0,0,.6);
+}
+
+.btm{
+	position: relative;
+	left: 100px;
+	background: -webkit-gradient(linear,0% 0%,0% 100%,from(#A53A31),to(#B1372C));/*谷歌*/ 
+	background:-moz-linear-gradient(top,#A53A31,#B1372C);/*火狐*/
+	box-shadow: -1px 0px 20px rgba(0,0,0,.6);
+	/*background:-moz-webkit-gradient(linear,0% 0%,0% 100%,form(#A53A31),to(#A53A31));
+	background:-ms-webkit-gradient(linear,0% 0%,0% 100%,form(#A53A31),to(#A53A31));
+	background:-o-webkit-gradient(linear,0% 0%,0% 100%,form(#A53A31),to(#A53A31));
+	background:webkit-gradient(linear,0% 0%,0% 100%,form(#A53A31),to(#A53A31));*/
+}

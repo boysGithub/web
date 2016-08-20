@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/*通用样式*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background: url("../img/beijing.gif");
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*通用颜色*/
+
+.red {
+    color: #FF0000;
+}
+
+.bgcolor {
+    background: url("http://www.qdjj.net/images/beijin1.gif");
+}
+
+.bg-eee {
+    background: #EEE;
+}
+
+.font-039 {
+    color: #003399;
+}
+
+.font-00f {
+    color: #0000ff;
+}
+.font-666{
+	color:#666666;
+}
+
+/*通用字体*/
+
+.font-height {
+    line-height: 150%;
+}
+
+.ft-rt-ctr {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+
+/*特殊布局样式*/
+
+.block-center {
+    display: block;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.special-width {
+    width: 708px!important;
+    margin: 0 34px!important;
+}
+
+.p-5 {
+    padding: 3px;
+}
+
+
+/*高度*/
+
+.h-23 {
+    height: 23px;
+}
+
+
+/*边框线*/
+
+.br-lf {
+    border-left: none;
+}
+
+.br-rgt {
+    border-right: none;
+}
+
+.br-top {
+    border-top: none;
+}
+
+.br-btm {
+    border-bottom: none;
+}
+
+.no-br {
+    border: none;
+}
+
+
+/*主体样式*/
+
+.container {
+    margin: 0 auto;
+    width: 746px;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td:first-child {
+    width: 165px;
+    -moz-width:160px;
+}
+
+table tr td:last-child {
+    width: 496px;
+}
+
+
+/*header样式*/
+
+header {
+    margin: 0 27px;
+}
+
+.login {
+    float: right;
+    position: relative;
+    top: 59px;
+}
+
+.login>a {
+    color: #FF0099;
+    margin-left: 10px;
+}
+
+.mian>h3 {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#table1 {
+    margin: 0 34px;
+}
+
+td {
+    border: 1px solid #808080;
+}
+
+
+/*input框通用样式*/
+
+.input {
+    width: 192px;
+    height: 18px;
+    margin: 2px;
+}
+
+.select {
+    margin: 2px;
+}
+
+.textarea {
+    margin: 2px;
+    min-width: 376px;
+    min-height: 95px;
+    max-width: 500px;
+    max-height: 150px;
+}
+
+.checkbox {
+    margin: 2px;
+}
+
+.submit {
+    width: 76px;
+}
+
+.submit-ctr {
+    text-align: center;
+    height: 82px;
+}
+
+footer {
+    padding-top: 6px;
+    padding-bottom: 28px;
+    text-align: center;
+}
