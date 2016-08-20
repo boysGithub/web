@@ -1,0 +1,137 @@
+.style-nav-bg {
+    background: #1ea5f0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-1-5em {
+    font-size: 21px;
+}
+
+.text-1-2em {
+    font-size: 14px;
+}
+
+.text-0-8em{
+	font-size: 11px;
+}
+
+.h-44 {
+    height: 44px;
+}
+
+.line-38 {
+    line-height: 38px;
+}
+
+.line-21 {
+    line-height: 25px;
+}
+
+.dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.bg-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.img-responsive {
+    max-width: 120%;
+    position: relative;
+    left: -10%;
+}
+
+.icon-winning {
+    width: 55px;
+    height: 55px;
+    background: url("../img/img.png") no-repeat -8px -5px;
+    margin: 0 auto;
+}
+
+.icon-buzz {
+    width: 55px;
+    height: 55px;
+    background: url("../img/img.png") no-repeat -5px -66px;
+    margin: 0 auto;
+}
+
+.icon-gains {
+    width: 55px;
+    height: 55px;
+    background: url("../img/img.png") no-repeat -8px -134px;
+    margin: 0 auto;
+}
+
+.icon-stock {
+    width: 55px;
+    height: 55px;
+    background: url("../img/img.png") no-repeat -8px -197px;
+    margin: 0 auto;
+}
+
+.icon-simulation{
+	width: 55px;
+    height: 55px;
+    background: url("../img/img.png") no-repeat -8px -261px;
+    margin: 0 auto;
+}
+
+.icon-transaction{
+	width: 55px;
+    height: 55px;
+    background: url("../img/img.png") no-repeat -8px -327px;
+    margin: 0 auto;
+}
+
+.margin-t-10 {
+    margin-top: 10px;
+}
+
+.margin-t-5 {
+    margin-top: 5px;
+}
+
+.clean-padding{
+	padding:0;
+}
+
+.m-bottom{
+	margin-bottom: 8px;
+}
+
+.l-padding{
+	padding-left: 3%;
+}
+
+.interval{
+	height: 10px;
+	background: #efeeee;
+}
+.interval-small{
+	height: 5px;
+	background: #efeeee;
+}
+.panel{
+	border:none;
+	margin-bottom: 0;
+}
+.panel-heading{
+	padding: 8px 15px;
+}
+
+.img-circle{
+	width: 50px;
+	height: 50px;
+}
