@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+
+
+.clearfix { *zoom: 1; }
+.clearfix:after { display: table; content: ''; clear: both; }
+.ul-l{
+	
+}
+
+.ul-l>li{
+	float: left;
+}	
+
+/*专栏 start*/
+.cloumn-detail .bm_h{
+	border:0;
+	background: none;
+}
+.cloumn-detail .tedt{
+	width:703px;
+}
+.cloumn-detail .bm.vw{
+	border:none;
+}
+.cloumn-detail .tedt,.cloumn-detail .pt{
+	border-color: #dedede;
+	background: none;
+}
+.cloumn-detail .hlight{
+	color:#c01f2e; 
+}
+.cloumn-detail .shareto{
+	margin: 6px 6px 6px 0;
+}
+.cloumn-detail #commentsubmit_btn strong{
+	font-weight:400;
+	background: #e6e6e6;
+	color:#666;
+	padding:5px 10px;
+}
+.cloumn-detail #commentsubmit_btn strong:hover{
+	color:#c01f2e;
+}
+.cloumn-detail #commentsubmit_btn{
+	color:#999;
+	border:none;
+	background: none;
+	box-shadow:none;
+	font: 12px/1.5 Arial,'SimSun',sans-serif;
+}
+.cloumn-detail #commentsubmit_btn:hover{
+	color:#c01f2e;
+}
+.cloumn-detail .post-date{
+	float:right;
+	color:#ccc;
+}
+.cloumn-detail .img-box{
+	margin-right:20px;
+}
+.cloumn-detail #comment dd{
+	margin-left:68px;
+}
+.cloumn-detail .rblock{
+	border:none;
+	border-top:1px solid #8d8d8d;
+	padding-top:10px;
+}
+.cloumn-detail .rblock h2{
+	color:#c01f2e;
+	font-size:17px;
+	font-family:'Microsoft YaHei';
+	padding-left: 5px;
+}
+.cloumn-detail .rblock .xl2 li{
+	background: #b9cee4;
+	padding:3px 10px;
+	border-radius:4px;
+	width:35%;
+	margin:2px 5px;
+	text-align:center;
+}
+.cloumn-detail .rblock .xl2 li:hover{
+	background: #79a4cc;
+}
+.cloumn-detail .rblock .xl2 li a{
+	color:#fff;
+	font-size:14px;
+	font-family:'SimSun';
+}
+.clumn-comment,.clumn-comment a.xi2 {
+	color:#666;
+}
+.clumn-comment a.xi2:hover{
+	color:#c01f2e;
+}
+.clumn-comment .bbda{
+	  border-bottom: 1px solid #e1e6eb;
+}
+.clumn-comment #cform{
+	padding-bottom:25px;
+	border-bottom: 1px solid #e1e6eb;
+	margin-bottom:20px;
+}
+.clumn-comment .pbm{
+	padding-bottom:20px!important;
+}
+.clumn-comment .bm{
+	background:#fcfcfc;
+}
+.clumn-comment .bm .quote{
+	background:#f3f3f3;
+	padding:10px;
+}
+.clumn-attach{
+	float:left;
+	margin:0 40px;
+}
+.clumn-attach a{
+	width:90px;
+	display:block;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	float:right;
+	margin:5px 0 0 10px;
+}
+.clumn-attach{
+	margin:20px 40px 0 0 ;
+}
+.vw .d .clumn-attach img{
+	height:35px;
+	width:35px;
+	overflow:hidden;
+}
+.attach-title{
+	color:#c01f2e;
+	margin-top:50px;
+}
+.clumn-comment .img-box img {
+	width:65px;
+	height:65px;
+	border-radius:3px;
+} 
+
+/*专栏 end*/

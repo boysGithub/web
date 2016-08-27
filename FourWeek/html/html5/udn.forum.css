@@ -1,0 +1,547 @@
+@CHARSET "utf-8";
+/*公用样式*/
+.c-3ad {
+	color:#3ad9bb;
+}
+
+.pg_mobile .mobilebanner1 {
+	background:url(/template/yongyou/style/images/general/mobilebanner.jpg) no-repeat scroll center top #2b174a;
+	height:510px;
+}
+
+.pg_mobile .mobilebanner2 {
+	background:url(/template/yongyou/style/images/general/mobilebanner2.jpg) no-repeat scroll center top #21103a;
+	height:871px;
+}
+
+.pg_mobile .mobilebanner3 {
+	background:url(/template/yongyou/style/images/general/mobilebanner3.jpg) no-repeat scroll center top #2b174a;
+	height:547px;
+}
+
+.pg_mobile .mobilebanner4 {
+	background:url(/template/yongyou/style/images/general/mobilebanner4.jpg) no-repeat scroll center bottom #21103a;
+	height:1063px;
+}
+
+.pg_mobile .mobilebanner1 .mbtn {
+	width:150px;
+	height:45px;
+	line-height:45px;
+	color:#ffffff;
+	display:inline-block;
+	border-radius:3px;
+	background-color:#ea4fcf;
+}
+
+.pg_mobile .mobilebanner1 .mbtn:hover {
+	background-color:#ca31af;
+}
+
+.pg_mobile .mobilebanner1 .allopus {
+	background-color:#fda01d;
+}
+ 
+.pg_mobile .mobilebanner1 .allopus:hover {
+	background-color:#d78612;
+}
+
+.pg_mobile .tally {
+	background:url(/template/yongyou/style/images/general/tally.png) no-repeat scroll center center;
+	width:378px;
+	height:99px;
+	position:absolute;
+	left:50%;
+	margin-left:-189px;
+}
+
+.pg_mobile .tally3 {
+	background-image:url(/template/yongyou/style/images/general/tally2.png);
+}
+
+.pg_mobile .tally4 {
+	background-image:url(/template/yongyou/style/images/general/tally3.png);
+}
+
+.pg_mobile .lt {
+	width:86px;
+	margin-left:180px;
+	text-align:center;
+}
+
+.pg_mobile .step {
+	background:url(/template/yongyou/style/images/general/radius.png) no-repeat scroll center center;
+    height: 86px;
+    color:#21103a;
+}
+
+.pg_mobile  .stepinfo {
+	bottom: 0;
+    font-size: 12px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: -30px;
+    width: 40px;
+}
+
+.pg_mobile  .stpipe {
+	border-right: 1px solid #2e757b;
+    height: 57px;
+    width: 43px;
+}
+ 
+.pg_mobile .infomation {
+	color:#b4b4b4;
+	line-height:28px;
+	font-size:14px;
+}
+
+.pg_mobile .infomation td {
+	padding:0 15px;
+	border-left:1px solid #716780;
+	vertical-align: top;
+	text-indent:30px;
+	width:25%;
+	background:none no-repeat scroll 10px 0;
+}
+
+.pg_mobile .infomation td:first-child {
+	border-left:none;
+	background-image:url(/template/yongyou/style/images/general/no1.png);
+}
+
+.pg_mobile .infomation td:nth-child(2) {
+	background-image:url(/template/yongyou/style/images/general/no2.png);
+}
+
+.pg_mobile .infomation td:nth-child(3) {
+	background-image:url(/template/yongyou/style/images/general/no3.png);
+}
+
+.pg_mobile .infomation td:nth-child(4) {
+	background-image:url(/template/yongyou/style/images/general/no4.png);
+}
+
+.pg_mobile .award td {
+    color: #ffffff;
+    text-align: center;
+}
+
+.pg_mobile .award .awardlogo {
+	height:190px;
+	background: none no-repeat scroll center bottom;
+	margin-bottom:20px;
+}
+
+.pg_mobile .award td:first-child .awardlogo {
+	background-image:url(/template/yongyou/style/images/general/6+.png);
+}
+
+.pg_mobile .award td:nth-child(2) .awardlogo {
+	background-image:url(/template/yongyou/style/images/general/watch-42.png);
+}
+
+.pg_mobile .award td:nth-child(3) .awardlogo {
+	background-image:url(/template/yongyou/style/images/general/pad-mini.png);
+}
+
+.pg_mobile .award td:nth-child(4) .awardlogo {
+	background-image:url(/template/yongyou/style/images/general/watch-38.png);
+}
+
+.pg_mobile .award td:nth-child(5) .awardlogo {
+	background-image:url(/template/yongyou/style/images/general/mi.png);
+}
+
+.pg_experts .experts_slide .container {
+	width:650px;
+	margin:0 auto;
+	height:100px;
+	overflow:hidden;
+	position:relative;
+}
+
+.pg_experts .experts_slide .list li {
+	float:left;
+	position:relative;
+}
+
+.pg_experts .experts_slide .list .division {
+	height:100px;
+	width:10px;
+}
+
+.pg_experts .experts_slide  .introduce {
+	background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    color: #ffffff;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    text-align:center;
+}
+
+.ie6 .pg_experts .experts_slide .introduce,
+.ie7 .pg_experts .experts_slide .introduce,
+.ie8 .pg_experts .experts_slide .introduce { 
+	opacity:0.3;
+	filter:alpha(opacity=30);
+    background-color:#000000;
+}
+
+.pg_experts .experts_slide .slidebarup,
+.pg_experts .experts_slide .slidebardown {
+	float: left;
+    height: 100px;
+    width: 30px;
+    background:url(/template/yongyou/style/images/general/back.jpg) no-repeat scroll center center;
+    cursor:pointer;
+}
+
+.pg_experts .experts_slide .slidebarup:hover {
+	background-image:url(/template/yongyou/style/images/general/back_01.jpg);
+}
+
+.pg_experts .experts_slide .slidebardown {
+	float: right;
+	background-image:url(/template/yongyou/style/images/general/next.jpg);
+}
+
+.pg_experts .experts_slide .slidebardown:hover {
+	background-image:url(/template/yongyou/style/images/general/next01.jpg);
+}
+
+.pg_experts .searchvessel {
+	height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+    width: 153px;
+}
+
+.pg_experts .searchbtn {
+	background-color:#c01f2e;
+	color:#ffffff;
+	width:70px;
+	height: 30px;
+    line-height: 30px;
+}
+
+.pg_experts .searchbtn:hover {
+	background-color:#af1423;
+}
+
+#selbyletter > a {
+	float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 3px;
+}
+
+#selbyletter > a:hover,
+#selbyletter > a.cur {
+	color:#c01f2e;
+}
+
+.pg_experts .expertlist li {
+	float:left;
+	width:33.33%;
+	*width:248px;
+}
+
+.pg_experts .expertlist .item {
+	padding: 10px 20px 10px 0;
+}
+
+.pg_experts .expertlist .item img {
+	border-radius:3px;
+}
+
+.pg_experts .expertlist .name {
+    line-height: 100%;
+}
+
+.pg_experts .expertlist .summery {
+    height: 51px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+#associatelist {
+	left: 0;
+    position: absolute;
+    top: 30px;
+    width: 163px;
+    z-index:10;
+}
+
+#associatelist li a {
+	border-bottom:1px solid #e2e2e2;
+	display:block;
+	padding:0 10px;
+	height:25px;
+	line-height:25px;
+	/* background-color:#f5f5f5; */
+	/* color:#666666; */
+}
+
+#associatelist li:last-child a {
+	border-bottom:none;
+} 
+
+#associatelist li a:hover {
+	/* background-color:#dadada; */
+} 
+
+#searchwindow {
+	background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    padding: 0 5px 10px;
+    position: absolute;
+    right: -255px;
+    top: -30px;
+    width: 235px;
+    z-index:10;
+    box-shadow:3px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#searchwindow .leftarrow {
+	background:url(/template/yongyou/style/images/general/leftarrow.png) no-repeat scroll center center;
+	height: 27px;
+    left: -14px;
+    position: absolute;
+    top: 30px;
+    width: 14px;
+}
+
+#searchwindow .tit {
+	height:25px;
+	line-height:25px;
+	border-bottom: 1px solid #e2e2e2;
+	margin:0 5px 10px;
+}
+
+#searchwindowlist {
+	height:80px;
+	overflow-y:auto;
+} 
+
+.ie6 #searchwindowlist,
+.ie7 #searchwindowlist,
+.ie8 #searchwindowlist {
+	height:100px;
+}
+
+#searchwindowlist li {
+	float:left;
+}
+
+#searchwindowlist li a {
+	padding:5px;
+	border:none;
+	color:#666666;
+}
+
+#searchwindowlist li a:hover {
+	color:#c01f2e;
+}
+
+.pg_index .document .comhead {
+	padding:10px;
+	border-bottom:1px solid #e2e2e2;
+}
+
+.pg_index .document .comlist {
+	padding:10px 0;
+}
+
+.pg_index .document .comlist li {
+	float:left;
+	padding:5px 10px;
+}
+
+.pg_index .document .comlist li a {
+	color:#4183c4;
+}
+
+.pg_index .document .comlist li a:hover {
+	text-decoration:underline;
+}
+
+.pg_index .document .comtittle {
+	padding:10px 5px 15px;
+}
+
+.pg_approve .head_banner {
+    background-color: #ffffff;
+    border-bottom: 2px solid #c01f2e;
+    height:74px;
+    line-height:74px;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    min-width:1000px;
+    left:0;
+}
+
+.pg_approve .head_banner .logoblc {
+	height: 20px;
+    line-height: 20px;
+    padding: 27px 0;
+}
+
+.pg_approve .head_banner .loinfo {
+	padding:0 10px;
+	margin-left:10px;
+	border-left:1px solid #e32012;
+	color:#c01f2e;
+	line-height:120%;
+}
+
+.pg_approve .menubars li {
+	float:left;
+	margin-left:20px;
+}
+
+.pg_approve .menubars li a {
+	display:block;
+	line-height:70px;
+	height:70px;
+	border-top:2px solid #ffffff;
+	border-bottom:2px solid #ffffff;
+}
+
+.pg_approve .menubars li.cur a,
+.pg_approve .menubars li:hover a {
+	color:#c01f2e;
+	border-top:2px solid #ffffff;
+	border-bottom:2px solid #c01f2e;
+	
+} 
+
+.pg_approve .traintitle {
+	background: url("/template/yongyou/style/images/general/iuapbig.png") no-repeat scroll 0 center;
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+    width: 310px;
+}
+
+#searchtab td {
+	height:40px;
+	line-height:40px;
+	border:1px solid #c01f2e;
+}
+
+#searchno {
+     border: medium none;
+    color: #333333;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    width: 413px;
+    margin:0;
+}
+
+#searchno:focus {
+	box-shadow:0 0 3px rgba(255, 0, 0, 0.5) inset;
+}
+
+.pg_approve  #scbar_btn {
+	cursor: pointer;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 112px;
+}
+
+#resulttab th,
+#resulttab td {
+	height:54px;
+	line-height:54px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#f9f9f9 #ffffff;
+	text-align:center;	
+	color:#424242;
+}
+
+#resulttab th {
+	background-color:#c01f2e;
+	color:#ffffff;
+}
+
+#resulttab .odd {
+	background-color:#f2f2f2;
+}
+
+#resulttab .even {
+	background-color:#e0e0e0;
+}
+
+#searchresult .loading {
+	width:50px;
+	margin:40px auto 0;
+}
+
+#searchresult .loading {
+	width:50px;
+	height:50px;
+}
+
+.pg_approve #toptb {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-width:1000px;
+}
+
+.pg_approve #ft {
+	margin-top:-160px;
+	position:relative;
+}
+
+.pg_approve .lookbook {
+	background-color: #e86914;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    margin-left: 20px;
+    width: 80px;
+}
+
+.pg_approve .lookbook:hover {
+	background-color: #de4a0c;
+}
+
+#certificate {
+	width:760px;
+	height:568px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-385px;
+	margin-top:-289px;
+	background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding:5px;
+    z-index:101;
+}
+
+.pg_approve .certificate {
+	border-top:2px solid #c01f2e;
+	background-color:#ffffff;
+}
+
+.pg_approve .sucessinfo {
+	 color:#231f20;
+	 margin:0 0 0 226px;
+}
