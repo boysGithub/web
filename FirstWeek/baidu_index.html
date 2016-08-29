@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>百度一下你就知道</title>
     <link rel="stylesheet" href="./css/baidu.css">
     <link rel="shortcut  icon" type="image/x-icon" href="./img/favicon.ico" media="screen" />
@@ -53,47 +54,145 @@
                 </li>
             </ul>
         </div>
+        <!-- ipad 导航栏 -->
+        <header class="nav-ipad-header">
+            <div class="l w-0"></div>
+            <div class="r m-r-0">
+                <div class="w-60 h-52 l">
+                    <div id="s_tmenu_logintitle" class="login-top">登录</div>
+                </div>
+                <div class="w-60 h-52 l">
+                    <div id="s_tmenu_settitle" class="setting-top">设置</div>
+                </div>
+                <div class="w-60 h-52 l">
+                    <div id="s_tmenu_navtit" class="sidenav-top">导航</div>
+                </div>
+            </div>
+        </header>
         <!-- 搜索主体 -->
         <div class="main">
-            <img class="img" src="./img/bd_logo1.png" alt="百度一下你就知道" title="百度一下" width="270" height="129">
-            
-                <form action="">
-                    <!-- 这里css使用行内块元素属性 -->
-                    <span id="sc"><input class="input" id="input" type="text"></span>
-                    <span class="bd"><input type="submit" value="百度一下"></span>
-			</form>
-	</div>
-
-	<!-- 底部 -->
-	<div class="footer">
-		<div class="content">
-			<div class="phone">
-				<img src="./img/zbios_62c636fe.png" alt="手机百度">
-				<div class="phone-r">
-					<p class="bold">手机百度</p>
-					<p class="gray">快人一步</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="nuomi">
-				<img src="./img/nuomi_510f7472.png" alt="百度糯米">
-				<div class="nuomi-r">
-					<p class="bold">百度糯米</p>
-					<p class="gray">一毛大餐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="ftConw">
-				<p><a href="#" class="block">把百度设为首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="block">关于百度</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="block">About Baidu</a></p>
-				<p class="gray" style="margin-top: 8px;">&copy;<span>2015</span>&nbsp;<span>Baidu</span>&nbsp;<a href="#" class="gray">使用百度前必读</a>&nbsp;<a href="#" class="gray">意见反馈</a>&nbsp;京ICP证030173号<i class="icon"></i></p>
-            </div>
-            <div class="clear"></div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAACOCAYAAABDnh23AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMUVBRTE2NTA4QkYxMUU0QkQ1MkZCODc0Q0YwMTM1QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMUVBRTE2NjA4QkYxMUU0QkQ1MkZCODc0Q0YwMTM1QiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxRUFFMTYzMDhCRjExRTRCRDUyRkI4NzRDRjAxMzVCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxRUFFMTY0MDhCRjExRTRCRDUyRkI4NzRDRjAxMzVCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+l7FInwAAH0VJREFUeNrsXQnc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" width="220" height="71" alt="logo">
+            <!-- <img class="img" src="./img/bd_logo1.png" alt="百度一下你就知道" title="百度一下" width="270" height="129"> -->
+            <form action="">
+                <span id="sc"><input class="input" id="input" type="text"></span>
+                <span class="bd"><input type="submit" value="百度一下"></span>
+            </form>
         </div>
-    </div>
-    <!-- 清除浮动 -->
-    <div class="clear"></div>
+        <!-- ipad -->
+        <div id="s_body_scroll">
+            <section class="s-card-area" id="s_cards">
+                <div class="s-card s-carditem-nav" id="s_card_nav" data-name="nav" data-ifshow="1">
+                    <div class="content l"><img src="https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/a50f4bfbfbedab648e671a09f236afc378311ee5.jpg" class="img"><span class="title">淘宝</span></div>
+                    <div class="content l"><img src="https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/bd3eb13533fa828b40956cf1fb1f4134970a5a6a.jpg" class="img"><span class="title">爱奇艺</span></div>
+                    <div class="content l"><img src="https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/super/pic/item/5bafa40f4bfbfbed8301c66d7ef0f736afc31f43.jpg" class="img"><span class="title">百度VIP</span></div>
+                    <div class="content l"><img src="https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/6609c93d70cf3bc7c6149a25d400baa1cc112ae6.jpg" class="img"><span class="title">赶集</span></div>
+                    <div class="content l"><img src="https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/6609c93d70cf3bc7c6149a25d400baa1cc112ae6.jpg" class="img"><span class="title">赶集</span></div>
+                    <div class="content l"><img src="https://ss1.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/super/pic/item/3812b31bb051f81922315483dfb44aed2f73e7e7.jpg" class="img"><span class="title">凤凰网</span></div>
+                </div>
+                <div class="s-card s-carditem-hotwords" id="s_card_hotwords" data-name="hotwords" data-ifshow="1">
+                    <link rel="stylesheet" type="text/css" href="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/padtpl/css/hotwords/index_5ca19fff.css">
+                    <style>
+                    @media screen and (max-width:450px) {
+                        .s-tagunit {
+                            width: 100%;
+                            border: none;
+                            position: initial;
+
+                        }
+                        .s-tagunit .title {
+                            width: 290px;
+                            height: 100%;
+                            text-align: center;
+                        }
+                    }
+                    </style>
+                    <div id="s_card_header">
+                        <div class="s-card-title">新闻热词</div>
+                        <nav class="huan" id="s_hotwords_huan"></nav>
+                    </div>
+                    <div style="clear:both"></div>
+                    <section class="s-card-content s-fixh-card">
+                        <div class="s-card-hotwords s-fixh-card">
+                            <section class="hotwords-content" id="s_hotw_content" style="position:relative;">
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=防止干部带病提拔&amp;rsv_idx=3" style="top: 0px; left: -1px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">防止干部带病提拔</span><span class="new">新</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=菲警察雇女杀手&amp;rsv_idx=3" style="top: 0px; left: 236px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">菲警察雇女杀手</span><span class="new">新</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=谢霆锋童年萌照&amp;rsv_idx=3" style="top: 0px; left: 473px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">谢霆锋童年萌照</span><span class="new">新</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=北上广深人口调控&amp;rsv_idx=3" style="top: 53px; left: -1px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">北上广深人口调控</span><span class="new">新</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=美又收天价核潜艇&amp;rsv_idx=3" style="top: 53px; left: 236px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">美又收天价核潜艇</span><span class="new">新</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=王健林小目标走红&amp;rsv_idx=3" style="top: 53px; left: 473px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">王健林小目标走红</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=王蓉砸伤主持人&amp;rsv_idx=3" style="top: 106px; left: -1px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">王蓉砸伤主持人</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=毕业生烧炭自杀&amp;rsv_idx=3" style="top: 106px; left: 236px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">毕业生烧炭自杀</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=曝黄海波低调复出&amp;rsv_idx=3" style="top: 106px; left: 473px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">曝黄海波低调复出</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=男童遇害父亲守尸&amp;rsv_idx=3" style="top: 159px; left: -1px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">男童遇害父亲守尸</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=千万现金分红村民&amp;rsv_idx=3" style="top: 159px; left: 236px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">千万现金分红村民</span></div>
+                                </div>
+                                <div class="s-tagunit" data-linkurl="//www.baidu.com/s?cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;wd=柴犬荡秋千萌翻&amp;rsv_idx=3" style="top: 159px; left: 473px;">
+                                    <div class="title" style="display:inline-block;"><span class="key">柴犬荡秋千萌翻</span></div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                    <script id="s_js_hotwords" data-src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/padtpl/js/hotwords/index_9716f78f.js">
+                    _xmanCard.asynLoad("s_js_hotwords");
+                    </script>
+                </div>
+            </section>
+            <nav class="s-card-load" id="s_card_load" style="display:none;">
+                <div class="icon"></div>
+            </nav>
+            <div id="s_hd_links" class="s-link">下载百度HD，享受极速搜索体验！</div>
+            <div id="footer">©2016 Baidu &nbsp; 京ICP证030173号</div>
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <div class="content">
+                <div class="phone">
+                    <img src="./img/zbios_62c636fe.png" alt="手机百度">
+                    <div class="phone-r">
+                        <p class="bold">手机百度</p>
+                        <p class="gray">快人一步</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="nuomi">
+                    <img src="./img/nuomi_510f7472.png" alt="百度糯米">
+                    <div class="nuomi-r">
+                        <p class="bold">百度糯米</p>
+                        <p class="gray">一毛大餐</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="ftConw">
+                    <p><a href="#" class="block">把百度设为首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="block">关于百度</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="block">About Baidu</a></p>
+                    <p class="gray" style="margin-top: 8px;">&copy;<span>2015</span>&nbsp;<span>Baidu</span>&nbsp;<a href="#" class="gray">使用百度前必读</a>&nbsp;<a href="#" class="gray">意见反馈</a>&nbsp;京ICP证030173号<i class="icon"></i></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- 清除浮动 -->
+        <div class="clear"></div>
     </div>
 </body>
 
 </html>
-
