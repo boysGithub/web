@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <style>
+    .calculator {
+        width: 320px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -160px;
+        margin-top: -160px;
+    }
+    
+    .table-bordered>tbody>tr>td {
+        border: none;
+    }
+    
+    .form-control {
+        height: 83px;
+        border-radius: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="calculator" class="form-control text-right" style="font-size:40px;" value="0" readonly>
+            <table class="table table-bordered">
+                <tr>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="clearNum()">c</button>
+                    </td>
+                    <td colspan="2"></td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="operator('除')">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(1)">1</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(2)">2</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(3)">3</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="operator('乘')">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(4)">4</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(5)">5</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(6)">6</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="operator('减')">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(7)">7</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(8)">8</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum(9)">9</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="operator('加')">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="btn btn-default btn-block " onclick="getNum(0)">0</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="getNum('.')">.</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-default btn-block " onclick="sum()">=</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+    var calculator = document.getElementById("calculator");
+    var i=0;//点击的次数
+    var n=[];//计算的变量
+    n[i] = '';
+    // 清除所有的数据
+    function clearNum(){
+    	n.length = 0;
+    	calculator.value=0;
+    }
+    
+    //得到数字
+    function getNum(num){
+    	n[i] += num.toString();
+    	console.log(n[i]);
+    	calculator.value=parseFloat(n[i]);
+    }
+
+    //得到运算规则
+    function operator(ope){
+
+    	i = i+1;
+    	n[i] = '';
+    	calculator.value=0;
+    	// switch (true){
+    	// 	case 11:
+    	// 		num +=num;
+    	// 		return num;
+    	// 	break;
+    	// }
+    }
+    </script>
+</body>
+
+</html>
